@@ -4,7 +4,20 @@
 using namespace std;
 int main()
 {
+  //declare named constant and varaibles
+  const double COMM_RATE = 0.1;
+  double sales           = 0.0;
+  double commision       = 0.0;
 
+  //enter input item
+  cout << "Sales amount: ";
+  cin >> sales;
+
+  //calculate and display the commission 
+  commission = sales * COMM_RATE;
+  cout << "Commission: $"
+      <<    commission << end1;
+      
 
   return 0;
 } //end of main function
